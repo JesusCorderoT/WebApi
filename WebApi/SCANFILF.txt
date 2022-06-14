@@ -1,0 +1,3 @@
+Server=localhost;Database=IntitutoTich;Trusted_Connection=True;
+
+Scaffold-DbContext "Server=localhost;Database=InstitutoTich;Trusted_Connection=True;"Microsoft.EntityFrameworkCore.SqlServer -Context ApiContextDir -ContextDir Models/Context -OutputDir Models/Entities -Force
